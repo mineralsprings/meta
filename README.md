@@ -3,7 +3,46 @@
 ---
 meta discussions / projects repository for mineral springs webapp development
 
+this document is in progress of being written
+
 ---
+
+# Jump List
+* [Overview](#overview)
+  * [main idea](#main-idea)
+  * [how the architecture works](#how-the-architecture-works)
+  * [roadmap](#roadmap)
+* **[Resources](#resource-list)**
+
+# Overview
+
+## main idea
+
+huh?
+
+## how the architecture works
+
+### frontend
+
+* Graphical interface
+  * customers (***users***) can view the menu and create order placements linked to their Google account
+  * cashiers (***admins***) can manage and view transaction data, create and delete orders, modify the menu, view detailed information about an order, manage customer interaction, and process transactions in real-life through Square
+---
+
+* Hosted by Github Pages
+* Cannot store or process data
+  * Client-side JavaScript sends sanitised / minimally processed form data to the backend server
+* Interfaces with Google Identity Platform and Square Point Of Sale Web API for iOS
+* Data is processed from HTML input fields via JavaScript into JSON (pronounced "jason"), a notation for describing data, and sent to the backend server, along with some important metadata
+  * The time when the data was created, expressed in microseconds since 1 January 1970
+  * (required for some data) a unique token, called an AntiCSRF key, that ensures a certain level of data and use integrity
+
+### backend
+
+
+## roadmap
+
+# Resource List
 
 recommended resources / reading (list subject to additions):
 
