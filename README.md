@@ -77,5 +77,5 @@ python 3 general and library references
 * Requests https://python-requests.org
 * AntiCSRF (written by Cat Stevens) https://codereview.stackexchange.com/q/165434
 * HTTP/1.1 https://www.w3.org/Protocols/rfc2616/rfc2616.html
- * don't read the whole spec, but you should be able to skim it if you need to find something (Stack Overflow is also very good for this)
+    * don't read the whole spec, but you should be able to skim it if you need to find something (Stack Overflow is also very good for this)
 * most of the server is written in pure Python without other libraries, so **read the code** if you plan on working on it -- **it's very well commented**
